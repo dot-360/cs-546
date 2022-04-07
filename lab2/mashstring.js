@@ -1,0 +1,32 @@
+l="Patrick"
+b="hill"
+res=""
+char="$"
+if(l.length>b.length){
+    chk=b.length
+    ptr=l.length
+    rest=l
+}
+else{
+    chk=l.length
+    ptr=b.length
+    rest=b
+}
+if(l.length==b.length){
+for (i=0;i<l.length;i++){
+    res=res+l[i]+b[i]
+}
+}
+else{
+        for(i=0;i<ptr;i++){
+            if(chk>0){
+                res=res+l[i]+b[i]
+            }
+            else{
+                res=res+rest[i]+char
+            }
+            chk--
+        }
+}
+console.log(res);
+

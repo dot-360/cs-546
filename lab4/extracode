@@ -1,0 +1,3 @@
+if(typeof name !== 'undefined'|typeof location !== 'undefined'|typeof phoneNumber !== 'undefined'|typeof website !== 'undefined'|typeof priceRange !== 'undefined'|typeof cuisines !== 'undefined'|typeof overallRating !== 'undefined'|typeof serviceOptions !== 'undefined'){
+            throw 'you should input all valid values'
+        }
